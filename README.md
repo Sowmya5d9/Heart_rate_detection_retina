@@ -1,4 +1,7 @@
 # Heart Rate Detection Using Retina and Eye Blinking Analysis
+## output Screenshot
+
+![output Screenshot](Screenshots/image.png)
 
 ## Overview
 
@@ -35,3 +38,7 @@ This project is a real-time computer vision application that:
 
 ```bash
 pip install -r requirements.txt
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3ca8955 (Updated README with output screenshot)
