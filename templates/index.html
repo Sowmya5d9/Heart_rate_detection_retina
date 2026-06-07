@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Heart Rate Detection Using Retina</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Heart Rate Detection Using Retina</h1>
+
+        <div class="button-group">
+
+            <button class="start-btn"
+                    onclick="startCamera()">
+                Start Camera
+            </button>
+
+            <button class="stop-btn"
+                    onclick="stopCamera()">
+                Stop Camera
+            </button>
+
+        </div>
+
+        <div class="camera-container">
+
+            <img id="videoFeed"
+                 src=""
+                 alt="Camera Feed">
+
+        </div>
+
+        <div class="dashboard">
+
+            <div class="card">
+
+                <h3>Eye Status</h3>
+
+                <p id="eye-status">
+                    Not Detected
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Blink Count</h3>
+
+                <p id="blink-count">
+                    0
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Frequency</h3>
+
+                <p id="frequency">
+                    N/A
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Heart Rate</h3>
+
+                <p id="heart-rate">
+                    N/A
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='dashboard.js') }}"></script>
+
+</body>
+
+</html>

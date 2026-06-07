@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Flask
+instance/
+.webassets-cache
+
+# Environment Variables
+.env
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# MediaPipe / OpenCV temporary files
+*.tmp
+
+# Database
+*.db
+*.sqlite3
+
+# Test / Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Uploaded files (if any)
+uploads/
+
+# Model files (optional - remove if you want them in GitHub)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+
+# Large datasets (optional)
+dataset/
+data/
+
+# Generated images/videos
+*.mp4
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
